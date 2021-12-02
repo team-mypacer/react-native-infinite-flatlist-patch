@@ -64,6 +64,7 @@ switch (minorVersion) {
 
 if (patchDir === '') {
   console.log('[!] Unsupported react-native version!');
+  console.log(`[!] Current Version : ${package.version}`);
   process.exit(1);
 }
 
